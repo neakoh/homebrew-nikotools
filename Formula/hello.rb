@@ -4,6 +4,6 @@ class Hello < Formula
   sha256 "bf0bb53a7e7db180a44c43a2db1912176c4952a22af0960b052bd74555a4111b"
 
   def install
-    bin.install "hello.sh" => "hello"
+    bin.install "test.sh" => "hello"
   end
 end
